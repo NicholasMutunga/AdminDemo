@@ -1,0 +1,125 @@
+/* loan-table.component.css */
+.button-container {
+    margin-bottom: 16px;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .mat-table {
+    width: 100%;
+    margin-top: 16px;
+  }
+  
+  .mat-row,
+  .mat-header-row {
+    display: flex;
+  }
+  
+  .mat-cell,
+  .mat-header-cell {
+    flex: 1;
+    text-align: center;
+  }
+
+  
+
+  /* loan-table.component.css */
+.search-container {
+    margin-bottom: 16px;
+  }
+  
+  .mat-header-cell {
+    font-weight: bold;
+  }
+  
+  .mat-cell {
+    text-align: center;
+  }
+  
+  .mat-row,
+  .mat-header-row {
+    display: flex;
+  }
+  
+  .mat-table {
+    width: 100%;
+    margin-top: 16px;
+  }
+  
+  .mat-cell,
+  .mat-header-cell {
+    flex: 1;
+  }
+  
+  .actions-cell {
+    flex: 0.1; /* Adjust the width as needed */
+  }
+  
+  /* loan-table.component.css */
+.center-cell {
+    text-align: center;
+  }
+  
+  .center-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  /* loan-table.component.css */
+.button-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .button-container button {
+    margin-right: 8px; /* Adjust the right margin as needed */
+  }
+  
+  .center-cell {
+    text-align: center;
+  }
+  
+  .center-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-container {
+    margin-left: auto; /* Align to the right */
+    margin-bottom: 16px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Optional: Add padding for better spacing */
+  }
+
+  .blue-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Add border radius for a rounded look */
+    border: none; /* Remove default button border */
+    cursor: pointer;
+  }
+  
+  .blue-button:hover {
+    background-color: rgb(4, 4, 57);
+  }
+  
+  /* .left-container {
+    /* Optional: Add styles for the left container if needed *
+  }
+  
+  .right-container {
+    /* Optional: Add styles for the right container if needed *
+  } */
+  

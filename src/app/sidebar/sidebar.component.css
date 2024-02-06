@@ -1,0 +1,58 @@
+/* sidebar.component.css */
+.sidenav-container {
+    height: 100%;
+  }
+  
+  mat-sidenav {
+    width: 200px;
+    background-color: #6b6ac9; /* Dark blue-gray background color */
+    
+  }
+  
+  mat-nav-list a {
+    color: #ffffff; /* Text color for links */
+  }
+  
+  mat-sidenav-content {
+    padding: 20px;
+  }
+  
+  /* Optional: Hover effect for links */
+  mat-nav-list a:hover {
+    background-color: #0d08b6; /* Darker background color on hover */
+  }
+  
+
+
+
+ /* sidebar.component.css */
+.centered-user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px; /* Adjust the top padding as needed */
+    
+  }
+  
+  .user-info {
+    text-align: center;
+    color: #ffffff; /* Text color for user info */
+  }
+  
+  .user-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-name {
+    font-weight: bold;
+  }
+  
+  .user-role {
+    font-size: 12px;
+  }
+  .custom-list-item {
+  margin-bottom: 10px; /* Adjust the bottom margin as needed */
+}
+
+

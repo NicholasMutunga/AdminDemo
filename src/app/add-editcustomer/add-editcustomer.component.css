@@ -1,0 +1,52 @@
+/* customer-dialog.component.css */
+.form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .half-width {
+    width: 48%; /* Adjust as needed to leave some space between fields */
+  }
+  
+  .button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+
+
+  .blue-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Add border radius for a rounded look */
+    border: none; /* Remove default button border */
+    cursor: pointer;
+  }
+  
+  .blue-button:hover {
+    background-color: rgb(4, 4, 57);
+  }
+
+  
+  /* customer-dialog.component.css */
+.mat-form-field {
+    width: 100%;
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  .mat-input-element {
+    border-bottom: 1px solid #ccc; /* Adjust color and style as needed */
+  }
+  
+  .mat-form-field-underline {
+    display: none; /* Hide the default underline */
+  }
+  

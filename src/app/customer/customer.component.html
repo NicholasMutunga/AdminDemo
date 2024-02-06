@@ -1,0 +1,38 @@
+<!-- loan-table.component.html -->
+<div class="container">
+  <div class="left-container">
+    <mat-form-field>
+      <input matInput placeholder="Search">
+    </mat-form-field>
+  </div>
+
+  <div class="right-container">
+    <button mat-raised-button class="blue-button" (click)="openDialog()">Add Customer</button>
+  </div>
+</div>
+
+
+  <div class="table-container mat-elevation-z8">
+    <table mat-table [dataSource]="dataSource" class="mat-table">
+      <!-- Define the columns -->
+      <ng-container *ngFor="let col of displayedColumns" [matColumnDef]="col">
+        <th mat-header-cell *matHeaderCellDef><strong>{{ col | titlecase }}</strong></th>
+        <td mat-cell *matCellDef="let loan">{{ loan[col] }}</td>
+      </ng-container>
+  
+      <!-- Update button column -->
+      <ng-container matColumnDef="actions">
+        <th mat-header-cell *matHeaderCellDef><strong>Update</strong></th>
+        <td mat-cell *matCellDef="let loan" class="center-cell">
+          <button mat-button color="primary" (click)="editLoan(loan)">Edit</button>
+        </td>
+      </ng-container>
+  
+      <!-- Header row -->
+      <tr mat-header-row *matHeaderRowDef="['name', 'id', 'phone', 'loanAmount', 'interestRate', 'principalAmount', 'actions']"></tr>
+  
+      <!-- Data rows -->
+      <tr mat-row *matRowDef="let row; columns: ['name', 'id', 'phone', 'loanAmount', 'interestRate', 'principalAmount', 'actions']; let i = index" class="center-row"></tr>
+    </table>
+  </div>
+  
